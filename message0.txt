@@ -1,0 +1,6 @@
+test_address@email.com
+
+Hi,
+This is a test message to show the format of the text file for the email bot.
+Best regards,
+Test bot
