@@ -1,5 +1,4 @@
 # Email_bot
-Email Bot
 =============================================================
  A simple email bot written in Python using yagmail libraries.
  - Made for the RealSource leasing procedure email list (Fall 2020)
