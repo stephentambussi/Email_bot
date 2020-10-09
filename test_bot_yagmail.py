@@ -11,8 +11,8 @@ while (state):
         print(alias)
         message = f.readlines() #get message
         message.pop(0) #remove alias from message
-        yag = yagmail.SMTP({'stevetambussi@gmail.com':alias}, '$unny@1999')
-        yag.send('Jason.RSR@gmail.com', 'Test bot', message)
+        yag = yagmail.SMTP({'username@email.com':alias}, 'password')
+        yag.send('receiver@email.com', 'Test bot', message)
         f.close()
         i += 1
     except FileNotFoundError:
